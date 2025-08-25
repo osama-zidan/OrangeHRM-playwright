@@ -195,24 +195,3 @@ Tests include comprehensive console logging:
 3. **Session Management**: Automatic cookie extraction for authenticated API calls
 4. **Random Data**: Uses random numbers to avoid test conflicts
 5. **Verification**: Multiple verification points to ensure test reliability
-
-## 🤝 Contributing
-
-1. Follow the existing code structure and patterns
-2. Add appropriate logging for debugging
-3. Include proper error handling
-4. Update this README for new features
-
-## 📞 Support
-
-For issues or questions:
-1. Check the test logs for detailed error information
-2. Review the Playwright documentation
-3. Ensure all dependencies are properly installed
-
-## 🔄 Continuous Integration
-
-The tests are designed to run in CI/CD environments:
-- Headless mode compatible
-- Proper exit codes for CI systems
-- Configurable timeouts and retries 
