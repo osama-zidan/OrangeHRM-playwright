@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "playwright": "^1.55.0"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=Mobile Chrome",
+    "test:parallel": "playwright test --workers=4",
+    "test:retry": "playwright test --retries=2",
+    "test:reporter": "playwright test --reporter=html",
+    "test:update": "playwright test --update-snapshots",
+    "test:codegen": "playwright codegen",
+    "test:install": "playwright install",
+    "test:install:chrome": "playwright install chromium",
+    "test:install:firefox": "playwright install firefox",
+    "test:install:safari": "playwright install webkit",
+    "test:show-report": "playwright show-report",
+    "test:clean": "rm -rf test-results playwright-report"
+  }
+}
